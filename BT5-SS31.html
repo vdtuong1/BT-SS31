@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1 = ["a", "b", "c", "d"];
+let n1 = 2;
+
+let result1 = [];
+for (let i1 = 0; i1 < arr1.length; i1 += n1) {
+  result1.push(arr1.slice(i1, i1 + n1));
+}
+console.log(result1);
+
+let arr2 = ["a", "b", "c", "d"];
+let n2 = 3;
+
+let result2 = [];
+for (let i2 = 0; i2 < arr2.length; i2 += n2) {
+  result2.push(arr2.slice(i2, i2 + n2));
+}
+console.log(result2); 
+
+    </script>
+</body>
+</html>
